@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Saira+Extra+Condensed:wght@400;500;600&display=swap');
+
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+a:visited {
+	color: white
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+/*--------------------*/
+*{
+	font-family: "Open Sans", sans-serif;
+}
+body {
+	background-color: black;
+}
+
+
+body {
+	overflow-x: hidden;
+}
+.footer-wrapper {
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 70vh;
+	margin-top: 20vh;
+
+}
+
+.footer-head h2 {
+	font-family: "Lobster", sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 29px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #FF9142;
+
+}
+
+.footer-head p {
+	text-decoration: underline;
+	font-size: 64px;
+	font-weight: 700;
+	line-height: 77px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: white;
+	padding-top: 10vh;
+}
+
+.footer-content {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100vw;
+	padding-top: 10vh;
+}
+
+.footer-content img {
+	width: 241px;
+	height: 42.42px;
+}
+
+.footer-content p {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 29px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: white;
+	width: 20vw;
+
+}
+
+.footer-text {
+	font-family: "Lobster", sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 29px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: white;
+	padding-top: 7vh;
+	padding-bottom: 5vh;
+	opacity: 50%;
+
+}
