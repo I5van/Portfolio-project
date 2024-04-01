@@ -1,0 +1,46 @@
+@media only screen and (max-width:1024px) {
+    .header-links{
+        width: 60vw;
+        
+    }
+    .header-links button{
+        width: 7vw;
+    }
+}
+@media only screen and (max-width:768px) {
+    .header-links a{
+        font-size: 12px;
+    }
+    .header-links{
+        width: 60vw;
+    }
+    .header-links button{
+        width: 9vw;
+        
+    }
+    .header-logo{
+        margin-top: 1vh;
+    }
+  
+}
+@media only screen and (max-width:425px) {
+    .header-content{
+        display: none;
+    }
+    .burger-menu{
+        width: 35vw;
+        margin-top: 1vh;
+    }
+    .header-logo{
+        margin-top: 1vh;
+        width: 50vw;
+        width: 150px;
+    }
+
+}
+@media only screen and (max-width:375px) {
+    
+}
+@media only screen and (max-width:320px) {
+    
+}
