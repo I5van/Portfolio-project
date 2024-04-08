@@ -20,21 +20,34 @@
     }
     .header-logo{
         margin-top: 1vh;
+        padding-left: 3vw;
     }
   
 }
-@media only screen and (max-width:425px) {
-    .header-content{
+@media only screen and (max-width:430px) {
+    .header-links{
         display: none;
     }
     .burger-menu{
-        width: 35vw;
+        width: 15vw;
         margin-top: 1vh;
     }
-    .header-logo{
+    .burger-menu img{
+        height: 60px ;
+    }
+    .header-logo {
         margin-top: 1vh;
-        width: 50vw;
+        width: 20vw;
         width: 150px;
+        padding-left: 3vw;
+        
+    }
+    .header-content{
+        width: 100vw;
+        justify-content: space-between;
+    }
+    header{
+        width:100vw;
     }
 
 }

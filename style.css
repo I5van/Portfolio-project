@@ -101,6 +101,9 @@ h6 {
 body {
 	background-color: black;
 }
+main{
+	display: none;
+}
 
 
 body {

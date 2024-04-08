@@ -106,13 +106,13 @@ body {
 body {
 	overflow-x: hidden;
 }
-.footer-wrapper {
+.footer-wrapper{
 	width: 100vw;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
-	height: 70vh;
+	height: 80vh;
 	margin-top: 20vh;
 
 }
@@ -132,11 +132,12 @@ body {
 	text-decoration: underline;
 	font-size: 64px;
 	font-weight: 700;
-	line-height: 77px;
+	padding-top: 2vh;
 	letter-spacing: 0em;
 	text-align: center;
 	color: white;
-	padding-top: 10vh;
+
+	
 }
 
 .footer-content {
@@ -144,7 +145,7 @@ body {
 	justify-content: space-around;
 	align-items: center;
 	width: 100vw;
-	padding-top: 10vh;
+	padding-top: 4vh;
 }
 
 .footer-content img {
@@ -159,7 +160,7 @@ body {
 	letter-spacing: 0em;
 	text-align: left;
 	color: white;
-	width: 20vw;
+	width: 25vw;
 
 }
 

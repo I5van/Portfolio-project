@@ -1,0 +1,106 @@
+@media only screen and (max-width:1024px) {
+    body{
+        overflow-x: hidden;
+    }
+footer{
+    width: 100vw;
+    overflow-x: hidden;
+
+}
+.footer-wrapper{
+    height: 80vh;
+}
+.footer-head h2{
+    font-size: 28px;
+}
+.footer-head p{
+    font-size: 45px;
+}
+
+
+.footer-content p {
+    font-size: 20px;
+  
+}
+}
+@media only screen and (max-width:768px) {
+    body{
+        overflow-x: hidden;
+    }
+footer{
+    width: 100vw;
+    overflow-x: hidden;
+
+}
+.footer-wrapper{
+    height: 80vh;
+}
+.footer-head h2{
+    font-size: 18px;
+}
+.footer-head p{
+    font-size: 25px;
+}
+
+.footer-content img{
+    width: 160px;
+    
+
+}
+.footer-content p {
+    font-size: 18px;
+  
+}
+  
+}
+@media only screen and (max-width:430px) {
+    body{
+        overflow-x: hidden;
+    }
+footer{
+    width: 100vw;
+    overflow-x: hidden;
+
+}
+
+.footer-head h2{
+    font-size: 16px;
+}
+.footer-head p{
+    font-size: 18px;
+}
+.footer-image{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.footer-content{
+    flex-direction: column;
+
+}
+.footer-p{
+    align-items: center;
+    align-self: center;
+    justify-content: space-around;
+    width: 100vw;
+    flex-direction: row;
+}
+.footer-content img{
+    width: 110px;
+    height: 26px;
+    
+
+}
+.footer-p div{
+    font-size: 12px;
+    width: 20vw;
+  
+}
+  
+}
+@media only screen and (max-width:375px) {
+    
+}
+@media only screen and (max-width:320px) {
+    
+}

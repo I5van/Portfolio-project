@@ -101,6 +101,9 @@ h6 {
 body {
 	background-color: black;
 }
+header{
+	display: none;
+}
 
 
 body {
@@ -109,7 +112,7 @@ body {
 .header-content {
 	width: 100vw;
 	height: 12vh;
-	display: flex;
+	display: none;
 	justify-content: space-around;
 	align-items: center;
 	
@@ -118,6 +121,7 @@ body {
 .header-logo {
 	width: 20vw;
 	height: 5vh;
+	
 }
 
 .header-logo img{
