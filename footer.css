@@ -106,13 +106,14 @@ body {
 body {
 	overflow-x: hidden;
 }
+
 .footer-wrapper{
 	width: 100vw;
-	display: flex;
+	display: none;
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
-	height: 80vh;
+	height: 60vh;
 	margin-top: 20vh;
 
 }
@@ -176,4 +177,16 @@ body {
 	padding-bottom: 5vh;
 	opacity: 50%;
 
+}
+footer p{
+	display: flex;
+	justify-content: space-around;
+}
+.line {
+	width: 80vw;
+	height: 2px;
+	background-color: #949494;
+	display: flex;
+	justify-content: center;
+	margin-top: 5vh;
 }

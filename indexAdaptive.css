@@ -1,0 +1,76 @@
+@media only screen and (max-width:1440px) {
+   .cover-page-button{
+    width: 450px;
+    height: 15vh;
+    border-radius: 60px;
+    font-size: 36px;
+   }
+   
+}
+
+@media only screen and (max-width:1024px) {
+.my-awards-row{
+    padding-left: 5vw;
+}
+}
+@media only screen and (max-width:768px) {
+   .about-me-content{
+    width: 50vw;
+   }
+   .cover-page-phrase{
+    font-size: 55px;
+   }
+   .cover-page-button{
+    width: 350px;
+    height: 10vh;
+    border-radius: 60px;
+    font-size: 30px;
+   }
+   .about-me-heading {
+    font-size: 45px;
+   }
+   .about-me-text {
+    font-size: 14px;
+   }
+   .about-me-button{
+    width: 200px;
+    font-size: 14px;
+   }
+   .my-awards-heading{
+    font-size: 54px;
+   }
+   .card-image img {
+    width: 260px;
+    height: 320px;
+   }
+   .card-content-head{
+    font-size: 16px;
+   }
+   .card-content-text{
+    font-size: 16px;
+   }
+   .my-awards-card{
+    width: 300px;
+    height: 500px;
+   }
+   .testemonials-head{
+    font-size: 54px;
+   }
+   .testemonials-head:after{
+    width: 120px;
+    height: 63px;
+   }
+   .testemonials-text{
+    font-size: 16px;
+   }
+}
+@media only screen and (max-width:430px) {
+
+
+}
+@media only screen and (max-width:375px) {
+    
+}
+@media only screen and (max-width:320px) {
+    
+}

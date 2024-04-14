@@ -101,9 +101,7 @@ h6 {
 body {
 	background-color: black;
 }
-main{
-	display: none;
-}
+
 
 
 body {
@@ -118,7 +116,7 @@ body {
 	align-items: center;
 	flex-direction: column;
 	width: 100vw;
-	height: 100vh;
+	height: 60vh;
 }
 
 .cover-page-phrase {
@@ -296,7 +294,7 @@ body {
 	justify-content: space-around;
 	flex-direction: column;
 	align-items: flex-start;
-	height: 50vh;
+	height: 70vh;
 }
 
 .testemonials-head {
@@ -306,6 +304,7 @@ body {
 	letter-spacing: 0em;
 	text-align: left;
 	color: white;
+	position: relative;
 
 }
 
@@ -313,8 +312,8 @@ body {
 	content: "";
 	background-image: url(images/testemonials.svg);
 	position: absolute;
-	top: 515vh;
-	left: 70vw;
+	background-size: cover;
+	left: 50vw;
 	width: 161px;
 	height: 93px;
 }
@@ -344,14 +343,7 @@ body {
 
 
 
-.line {
-	width: 80vw;
-	height: 2px;
-	background-color: #949494;
-	display: flex;
-	justify-content: center;
-	margin-top: 5vh;
-}
+
 
 
 

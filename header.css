@@ -101,9 +101,7 @@ h6 {
 body {
 	background-color: black;
 }
-header{
-	display: none;
-}
+
 
 
 body {
@@ -112,7 +110,7 @@ body {
 .header-content {
 	width: 100vw;
 	height: 12vh;
-	display: none;
+	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	
