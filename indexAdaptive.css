@@ -65,11 +65,70 @@
    }
 }
 @media only screen and (max-width:430px) {
-
-
-}
-@media only screen and (max-width:375px) {
     
+    
+    .about-me-content{
+        width: 50vw;
+        
+       }
+       .cover-page-phrase{
+        font-size: 35px;
+       }
+       .cover-page-button{
+        width: 250px;
+        height: 10vh;
+        border-radius: 60px;
+        font-size: 20px;
+       }
+       .about-me-heading {
+        font-size: 35px;
+       
+       }
+       .about-me-text {
+        font-size: 12px;
+       }
+       .about-me-button{
+        width: 170px;
+        font-size: 13px;
+       }
+       .my-awards-heading{
+        font-size: 34px;
+       }
+       
+       .card-image img {
+        width: 260px;
+        height: 320px;
+       }
+       .card-content-head{
+        font-size: 16px;
+       }
+       .card-content-text{
+        font-size: 16px;
+       }
+       .my-awards-card{
+      
+        height: 400px;
+       }
+       .my-awards-row{
+        flex-wrap: wrap;
+       }
+     
+       .testemonials-head{
+        font-size: 34px;
+       }
+       .testemonials-head:after{
+        width: 90px;
+        height: 43px;
+       }
+       .testemonials-text{
+        font-size: 12px;
+       }
+       
+}
+@media only screen and (max-width:380px) {
+    .about-me-heading{
+        line-height: 40px;
+    }
 }
 @media only screen and (max-width:320px) {
     

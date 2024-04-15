@@ -100,6 +100,7 @@ h6 {
 }
 body {
 	background-color: black;
+	overflow-x: hidden;
 }
 
 
@@ -116,7 +117,7 @@ body {
 	align-items: center;
 	flex-direction: column;
 	width: 100vw;
-	height: 60vh;
+	min-height: 60vh;
 }
 
 .cover-page-phrase {
@@ -137,12 +138,13 @@ body {
 	font-weight: 600;
 	border: solid white 1px;
 
+
 }
 
 .about-me {
 	display: flex;
 	justify-content: space-around;
-
+	min-height: 100vh;
 	width: 100vw;
 }
 
@@ -152,7 +154,7 @@ body {
 	justify-content: space-around;
 	align-items: center;
 	width: 35vw;
-	height: 100vh;
+	
 }
 
 .about-me-heading {
@@ -189,7 +191,7 @@ body {
 
 .about-me-image {
 	width: 35vw;
-	height: 50vh;
+
 
 }
 
@@ -249,12 +251,12 @@ body {
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
-	height: 50vh;
+	
 
 }
 
 .my-awards-card {
-	width: 560px;
+	
 	height: 768px;
 
 
@@ -294,7 +296,7 @@ body {
 	justify-content: space-around;
 	flex-direction: column;
 	align-items: flex-start;
-	height: 70vh;
+	min-height: 70vh;
 }
 
 .testemonials-head {
