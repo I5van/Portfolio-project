@@ -110,21 +110,22 @@ body {
 	display: flex;
 	justify-content: space-around;
 	width: 100vw;
-	height: 240vh;
+	
 	flex-direction: column;
 	align-items: center;
 }
 .my-cards-row1{
 display: flex;
-justify-content: space-around;
+justify-content: center;
 flex-direction: row;
 align-items: center;
 width: 100vw;
 padding-top: 10vh;
+
 }
 
 .my-card{
-width: 261px;
+width: 461px;
 height: 339px;
 display: flex;
 flex-direction: column ;
@@ -153,4 +154,45 @@ line-height: 34px;
 letter-spacing: -0.5px;
 text-align: center;
 opacity: 75%;
+}
+.aboutmyself-head {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	padding-left: 4vw;
+	width: 100vw;
+}
+
+.aboutmyself-head h1 {
+	font-family: "Lobster", sans-serif;
+	font-size: 72px;
+	font-weight: 700;
+	line-height: 86px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: white;
+
+
+}
+
+.aboutmyself-head p {
+	color: white;
+	opacity: 50%;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: left;
+
+}
+.aboutmyself-line{
+	width: 80vw;
+	height: 2px;
+	background-color: #949494;
+	display: flex;
+	justify-content: center;
+	margin-top: 1vh;
+	align-items: center;
+	flex-shrink: 0;
 }

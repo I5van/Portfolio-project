@@ -20,13 +20,61 @@
     .social-media{
         font-size: 20px;
     }
+    .aboutmyself-photos{
+        padding-top: 2vh;
+    }
+    .my-social-media p{
+        font-size: 20px;
+    }
+    
+
  }
  @media only screen and (max-width:430px) {
-     
-   
+     .aboutmyself-head h1{
+        font-size: 60px;
+     }
+     #info-mission{
+        font-size: 40px;
+     }
+     #info-text{
+        font-size: 14px;
+     }
+     .aboutmyself-photos{
+        display: flex;
+	    justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        height: 60vh;
+     }
+    .my-social-media h2{
+    font-size: 28px;
+     }
+     .my-social-media p{
+        font-size: 18px;
+     }
         
  }
  @media only screen and (max-width:380px) {
+     .aboutmyself-info{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 30vh;
+       
+        width: 100vw;
+     }
+     #info-text{
+        line-height: 30px;
+        width: 100vw;
+        align-self: center;
+        padding-left: 5vw;
+       
+     }
+     #info-mission{
+        line-height: 60px;
+        width: 100vw;
+        padding-left: 5vw;
+     }
      
  }
  @media only screen and (max-width:320px) {

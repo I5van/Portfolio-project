@@ -1,0 +1,36 @@
+@media only screen and (max-width:1440px) {
+
+}
+
+@media only screen and (max-width:1024px) {
+
+}
+@media only screen and (max-width:768px) {
+
+   
+
+}
+@media only screen and (max-width:430px) {
+    .aboutmyself-head h1{
+        font-size: 50px !important;
+    }
+    .my-cards-row1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 60vh;
+        padding-top: 0vh;
+    }
+    .cards-content{
+        padding-top: 3vh;
+    }
+       
+}
+@media only screen and (max-width:380px) {
+
+    
+}
+@media only screen and (max-width:320px) {
+    
+}
