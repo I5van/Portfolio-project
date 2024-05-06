@@ -134,8 +134,7 @@ body {
 	justify-content: space-around;
 	width: 40vw;
 	align-items: center;
-	display: none;
-
+	
 }
 
 .header-links a {
@@ -160,11 +159,28 @@ body {
 .burger-menu{
 	height: 10vh;
 	width: 100vw;
-	display: flex;
+	display: none;
 	justify-content: flex-end;
 	align-items: center;
 }
 .burger-menu img{
 	width: 100px;
 	height: 120px;
+}
+.burger-menu-content{
+	position: fixed;
+	background-color: rgb(35, 35, 35);
+	width: 60vw;
+	height: 50vh;
+	top: 0px;
+	right: -300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	color: white;
+
+}
+.burger-active{
+	right:0px ;
 }

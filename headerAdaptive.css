@@ -49,6 +49,9 @@
     header{
         width:100vw;
     }
+    .burger-menu{
+        display: flex;
+    }
 
 }
 @media only screen and (max-width:375px) {
