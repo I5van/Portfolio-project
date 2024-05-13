@@ -32,7 +32,7 @@
         width: 15vw;
         margin-top: 1vh;
     }
-    .burger-menu img{
+    #burger-image{
         height: 60px ;
     }
     .header-logo {

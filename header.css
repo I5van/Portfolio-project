@@ -163,7 +163,7 @@ body {
 	justify-content: flex-end;
 	align-items: center;
 }
-.burger-menu img{
+#burger-img{
 	width: 100px;
 	height: 120px;
 }
@@ -172,8 +172,9 @@ body {
 	background-color: rgb(35, 35, 35);
 	width: 60vw;
 	height: 50vh;
-	top: 0px;
-	right: -300px;
+	top: 0vh;
+	right: -60vw;
+
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -183,4 +184,13 @@ body {
 }
 .burger-active{
 	right:0px ;
+	top: 0px;
+}
+.close-button{
+	position: absolute;
+	left :48vw;
+	width: 30px; 
+
+	top:3vh;
+	
 }
