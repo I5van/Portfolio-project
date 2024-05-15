@@ -13,14 +13,22 @@
 @media only screen and (max-width:430px) {
     .aboutmyself-head h1{
         font-size: 40px !important;
+        max-width: 400px;
+    }
+    .aboutmyself-line{
+        margin-bottom: 1vh;
     }
     .my-cards-row1{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        height: 60vh;
+        
         padding-top: 0vh;
+        
+    }
+    .my-card{
+        width: 400px;
     }
 
        
@@ -30,5 +38,7 @@
     
 }
 @media only screen and (max-width:320px) {
-    
+    .my-card{
+        width: 350px;
+    }
 }
