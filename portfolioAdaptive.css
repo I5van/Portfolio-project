@@ -1,73 +1,56 @@
 @media only screen and (max-width:2560px) {
-    .myachievements h2{
-        font-size: 50px;
-    }
-    .myachievements p{
-        font-size: 30px;
-        line-height: 33px;
-    }
-    .achievements-photos img{
-        width: 45vw;
-	height: 50vh;
-    }
+
 }
 
 @media only screen and (max-width:1440px) {
-    .myachievements p{
-        font-size: 20px;
-        line-height: 33px;
-    }
+
 }
 
 @media only screen and (max-width:1024px) {
 
 }
 @media only screen and (max-width:768px) {
-    .myachievements p{
-        font-size: 23px;
-        line-height:30px;
-        margin-top: 2vh;
-    }
-   
+
 
 }
 @media only screen and (max-width:430px) {
-    .myachievements h2{
-        font-size: 30px;
-    }
-    .myachievements p{
-        font-size: 21px;
-        line-height: 30px;
-        margin-top: 1vh;
-        width: 80vw;
-    }
-    .achievements-photos{
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        max-height: 60vh;
-    }
-    .aboutmyself-head h1{
-        font-size: 45px;
-    }
+.football-section{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#block-type2{
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+.football-photo{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.football-photo img{
+    width: 45vw;
+}
+.football-info{
+    width: 100vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+.football-info h2{
+    font-size: 27px;
+    margin-top: 4vh;
+    text-align: center;
+}
    
        
 }
 @media only screen and (max-width:380px) {
-    .achievements-photos{
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        max-height: 50vh;
-    }
-    .myachievements p{
-        font-size: 18px;
-        line-height: 25px;
-        margin-top: 1vh;
-        width: 80vw;
-    }
+ 
     
 }
 @media only screen and (max-width:320px) {
-    
+    .football-head{
+        font-size: 30px;
+    }
 }
