@@ -122,13 +122,31 @@ body {
 	margin-top: 4vh;
 }
 .football-photo{
-	width: 30vw;
-	max-height: 40vh;
+	width: 40vw;
+	justify-content: center;
+	display: flex;
+	align-items: center;
 	
 }
+#FF{
+	 
+	 height: 70vh !important;
+}
+#FSHK-2008{
+	width: 40vw;
+	font-size: 14;
+}
+#FSHK-2008-photos{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+#DEMA{
+	height: 60vh;
+}
 .football-photo img{
-	width: 30vw;
-	max-height: 40vh;
+	max-width: 30vw;
+	max-height: 70vh;
 	
 }
 .football-info{

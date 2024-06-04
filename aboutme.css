@@ -179,16 +179,18 @@ body {
 .aboutmyself-photos {
 	display: flex;
 	justify-content: space-around;
+	width: 100vw;
+	margin-top: 4vh;
 }
 
 #myself-photos-img1 {
 	width: 240px;
-	height: 320px;
+	
 }
 
 #myself-photos-img2 {
-	width: 750px;
-	height: 320px;
+	width: 550px;
+	
 }
 
 .my-social-media {

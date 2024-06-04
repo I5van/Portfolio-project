@@ -197,6 +197,11 @@ main{
 
 
 }
+.about-me-image img{
+	max-width: 35vw;
+	max-height: 95vh;
+}
+
 
 .my-awards {
 	width: 100vw;
