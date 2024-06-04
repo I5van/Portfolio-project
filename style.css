@@ -217,6 +217,7 @@ main{
 	align-items: center;
 	justify-content: space-around;
 	width: 100vw;
+	height: 150vh;
 
 
 }
@@ -262,13 +263,11 @@ main{
 	
 
 }
-
-.my-awards-card {
-	
-	height: 768px;
-
-
+#team-photos img{
+	height: 220px;
 }
+
+
 
 .card-content {
 	height: 116px;
@@ -282,7 +281,7 @@ main{
 .card-image img {
 	border-radius: 16px;
 	width: 360px;
-	height: 420px;
+	height: 270px;
 }
 
 .card-content-head {
