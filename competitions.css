@@ -116,26 +116,34 @@ body {
 }
 .my-cards-row1{
 display: flex;
-justify-content: center;
+justify-content: space-around;
 flex-direction: row;
 align-items: center;
 width: 100vw;
 padding-top: 10vh;
-
+padding-left: 5vw;
+padding-right: 5vw;
 }
 
 .my-card{
-width: 461px;
-height: 339px;
+
+
 display: flex;
 flex-direction: column ;
 justify-content: space-around;
 align-items: center;
 
 }
-.my-card img{
-	width: 261px;
-	height: 247px;
+.card-img{
+	height: 300px;
+	width: 250px;
+	margin-bottom: 2vh;
+
+}
+#horizontal-photo{
+	width: 350px;
+	height: 250px;
+	margin-bottom: 2vh;
 }
 .my-card h3{
 color: white;
