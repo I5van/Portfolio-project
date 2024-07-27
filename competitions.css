@@ -204,3 +204,8 @@ opacity: 75%;
 	align-items: center;
 	flex-shrink: 0;
 }
+#champions-2008{
+	width: 250px;
+	height: 350px;
+	margin-bottom: 2vh;
+}
